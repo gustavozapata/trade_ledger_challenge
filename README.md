@@ -5,6 +5,8 @@ See my solution to the Trade Ledger Code Challenge!
 
 Very simple to use, just head to https://gustavozapata.me/university/trade_ledger/index.html and click on "Analyse" to see a report of the data provided.
 
+I built it using HTML5, CSS3, JavaScript, AJAX and jQuery.
+
 It's been good fun and quite a challenge to complete it.
 
 I cannot wait to see other programmer's solutions.
