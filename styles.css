@@ -1,0 +1,176 @@
+body {
+  background-color: #f3f3f3;
+  font-family: proxima-nova-condensed, sans-serif;
+}
+
+header nav {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+}
+
+header nav div {
+  flex-basis: 25%;
+  text-align: center;
+}
+
+header nav div:first-child p {
+  font-weight: bold;
+}
+
+header nav div:nth-child(2) {
+  flex-basis: 50%;
+  position: relative;
+}
+
+header nav div:nth-child(2) img,
+header nav div:nth-child(2) p {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+header nav div img {
+  width: 105px;
+}
+#analyseTL {
+  width: 80px;
+  margin: 15px auto;
+}
+.dots {
+  display: none;
+  width: 15px;
+  height: 15px;
+  background-color: #59e5e8;
+  background-color: #3596d3;
+  border-radius: 20px;
+  position: absolute;
+  left: -10%;
+  top: 30%;
+  z-index: -100;
+}
+
+section {
+  width: 80%;
+  height: 550px;
+  margin: 30px auto 50px auto;
+  background-color: white;
+  border-radius: 45px;
+  padding-bottom: 20px;
+}
+
+section article {
+  width: 95%;
+  margin: 20px auto;
+  /* border: 1px solid red; */
+}
+
+.before-report {
+  /* display: none; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -130px;
+}
+
+.before-report p {
+  font-size: 1.3em;
+  font-style: italic;
+  color: rgb(150, 150, 150);
+}
+
+.report {
+  display: none;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#reportTitle {
+  text-align: center;
+  margin: 0px auto;
+  padding-top: 15px;
+  font-weight: 900;
+  font-size: 2em;
+  font-family: proxima-nova, sans-serif;
+  color: #3596d3;
+}
+
+.report-header {
+  margin: 20px auto;
+  /* margin-top: 50px; */
+  text-align: center;
+  /* border: 1px solid blue; */
+}
+.report-header h1 {
+  font-size: 2em;
+  margin: 100px 0 0 0;
+  font-weight: 900;
+  color: #d335b3;
+}
+.report-section {
+  margin: 50px auto;
+  /* border: 1px solid green; */
+}
+.report-section p {
+  text-align: center;
+  font-style: italic;
+  color: rgb(150, 150, 150);
+}
+
+.report-section-inner {
+  display: flex;
+  justify-content: space-between;
+}
+/* INDUSTRY/COMPANY BLUE BARS */
+.report-section-cat {
+  flex-basis: 40%;
+  /* border: 1px solid yellow; */
+}
+.report-section-cat:nth-child(2) h2 {
+  margin-bottom: 38px;
+}
+.report-section-cat h4 {
+  margin: 5px 0 0px 0;
+  display: inline-block;
+}
+.report-section-cat a {
+  margin-left: 5px;
+}
+.report-section-cat span {
+  display: inline-block;
+  width: 250px;
+  height: 15px;
+  background-color: #3596d3;
+}
+
+.report-section-footer {
+  display: flex;
+  /* border: 1px solid pink; */
+}
+.report-section-footer div {
+  flex-basis: 50%;
+  text-align: center;
+}
+.report-section-footer p {
+  font-style: italic;
+  color: rgb(150, 150, 150);
+}
+/* INDUSTRY/COMPANY RISKS BARS */
+.report-risks div span {
+  background-color: #d335b3;
+}
+
+.report-risks-extra h2 {
+  font-size: 5em;
+  font-weight: 700;
+  color: #df71d0;
+  margin-bottom: 0px;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer a {
+  color: black;
+}
