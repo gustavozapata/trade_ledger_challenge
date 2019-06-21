@@ -14,6 +14,7 @@ I cannot wait to see other programmer's solutions.
 Looking forward to the FinTECHTalents Festival.
 
 
+### Designed and Developed by
 Gustavo Zapata
 Computer Science Undergraduate - Kingston University
 https://gustavozapata.me
