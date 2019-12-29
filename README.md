@@ -1,5 +1,5 @@
 # trade_ledger_challenge
-FinTECHTalents Festival - Trade Ledger Code Challenge
+FinTECHTalents Festival - Trade Ledger Code Challenge https://github.com/TradeLedger/code-challenge-2018
 
 See my solution to the Trade Ledger Code Challenge!
 
